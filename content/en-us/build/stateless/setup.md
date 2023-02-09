@@ -39,6 +39,7 @@ As a pre-requisite for the tool, you need to install the [binaryen](https://gith
 - For Ubuntu users, we recommend downloading the [latest](https://github.com/WebAssembly/binaryen/releases) release](https://github.com/WebAssembly/binaryen/releases) since apt can get you an outdated version.
 
 Then you can install the `cargo-contract` with
+(If you're using Ubuntu 22.10 and have `openssl` error related install dependency `sudo apt install libssl-dev`)
 ```bash
 # install Rust nightly toolchain for contract compilation
 rustup install nightly
